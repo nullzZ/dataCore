@@ -18,6 +18,9 @@
 java -jar DataCore.jar “excel路径” "工程包名" 输出地址
 java -jar DataCore.jar excel com.server.working out
 
+项目中使用：
+MainProvider.getInstance().run(path);
+
 #### 参与贡献
 
 

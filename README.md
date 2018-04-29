@@ -15,8 +15,8 @@
 3. xxxx
 
 #### 使用说明
-
-
+java -jar DataCore.jar “excel路径” "工程包名" 输出地址
+java -jar DataCore.jar excel com.server.working out
 
 #### 参与贡献
 

@@ -5,7 +5,17 @@
 加载excel表格
 
 #### 软件架构
-软件架构说明
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.12</version>
+        </dependency>
+       
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.12</version>
+        </dependency>
 
 
 #### 安装教程
@@ -22,5 +32,3 @@ java -jar DataCore.jar excel com.server.working out
 MainProvider.getInstance().run(path);
 
 #### 参与贡献
-
-

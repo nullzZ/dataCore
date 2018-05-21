@@ -1,4 +1,4 @@
-package game.core.example.drop;
+package game.core.drop;
 
 public enum DROP_TYPE {
 	dropId(0), // 掉落ID

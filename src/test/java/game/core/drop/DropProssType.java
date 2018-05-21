@@ -1,4 +1,4 @@
-package game.core.example.drop;
+package game.core.drop;
 
 public enum DropProssType {
 	item(),//物品掉落

@@ -1,4 +1,4 @@
-package game.core.example.drop;
+package game.core.drop;
 
 
 import game.core.dataProvider.AbstractDataProvider;

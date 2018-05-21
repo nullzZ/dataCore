@@ -1,4 +1,4 @@
-package game.core.example.drop;
+package game.core.drop;
 
 public enum Random_Type {
 	random1(1), random2(2), ;

@@ -15,12 +15,17 @@ public class GameUtil {
         String XLS_PATH = args[0];//excel的路径
         String packagePath = args[1];//类包,com.game.server
         String outPath = args[2];//
+
+//        String XLS_PATH = "E:\\excel";//excel的路径
+//        String packagePath = "game.core";//类包,com.game.
+//        String outPath = "";//
+
         boolean isU = false;
         if (args.length == 4) {
             String isUrl = args[3];//是不是通过url地址
             isU = isUrl.equals("1");
         }
-        Excel2JavaBeanUtil.run(XLS_PATH, packagePath + ".provider.domain", outPath);
-        GenerateDataProviderUtil.run(XLS_PATH, packagePath + ".provider", outPath, abstractDataProviderPath, isU);
+        Excel2JavaBeanUtil.run(XLS_PATH, packagePath + ".data.provider.domain", outPath);
+        GenerateDataProviderUtil.run(XLS_PATH, packagePath + ".data.provider", outPath, abstractDataProviderPath, isU);
     }
 }
